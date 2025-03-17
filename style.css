@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: Arial;
+}
+
+.navbar{
+  background-color: black;
+  height: 65px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  
+}
+
+.nav-logo{
+  height: 50px;
+  width: 175px;
+
+}
+.logo{
+  background-image: url('Images/amzl.logo.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 100%;
+    
+}
+.border{
+  border: 2px solid transparent;
+}
+.border:hover{
+  border: 1.5px solid white;
+}
+
+.nav-address{
+  font-size: 0.rem;
+
+}
+.outer{
+  color: #CCCCCC;
+  margin-left: 20px;
+
+}
+.address-icon{
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.inner{
+  margin-left: 7.5px;
+}
+.nav-search{
+  color: black;
+  justify-content: space-evenly;
+  display: flex;
+  background-color: rgb(231, 182, 92);
+  margin-right: 150px;
+  width: 1000px;
+  height: 45px;
+  border-radius: 4px;
+}
+.nav-search:hover{
+  border: 5px solid rgb(255, 184, 52);
+  border-radius: 4px;
+}
+.search-select{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #f3f3f3;
+  color: #0f1111;
+  width: 50px;
+  border:none;
+  border-right: grey;
+  text-align: center;
+}
+.search-input{
+  background-position-x:center;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+}
+.search-icon{
+ display: flex;
+ justify-content: center;
+ font-size: larger;
+ align-items: center;
+  width: 45px;
+}
+.hello{
+  color: #ffffff;
+  margin-left: 3px;
+}
+.account{
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border: none;
+  
+}
+.returnorders{
+  color: white;
+
+}
+.order{
+  color: white;
+  font-size: 1.2rem;
+}
+.cart{
+  color: white;
+}
+.cart1{
+  font-size: 400px;
+}
+.cart i{
+  
+  font-size: 30px;
+}
+.cart {
+  font: 5rem;
+  font-weight: 120;
+}
+.small-navbar{
+  background-color: #232f3e;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+.smallpanel p{
+  display: inline;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+.smallpanel{
+  width: 70%;
+  font-size: 1.2rem;
+  margin-left: 15px;
+ 
+}
+.all{
+  font-size: 1.2rem;
+  font-weight: 400  ;
+  margin-right: 150px;
+}
+.shopdeals{
+  font-size: 1.1rem;
+}
+.hero-section{
+  background-image: url(Images/herosectionlogo1.jpg);
+  background-size: cover;
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+.smallheader{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  width: 80%;
+  font-size: 0.97rem;
+  text-align: center;
+  font-weight: 500;
+  
+  margin-bottom: 25px;
+  position: relative;
+}
+.smallheader a{
+  text-decoration: none;
+  color: #007185;
+  font-weight: bold;
+  font-size: 0.97rem;
+}
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  background-color: rgba(240, 238, 238, 0.918);
+}
+.box {
+  height: 400px;
+  width: 21%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin: 15px;
+ 
+}
+.box1-img{
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+#comment{
+  background-color: red;
+}
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box-content p{
+  color: #007185;
+
+}
+
+/* footer area*/
+.footer{
+  margin-top: 15px;
+}
+.footpanel1{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.footpanel2{
+  background-color: #222f3d;
+  
+  color: white;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+.footpanel2 ul a{
+  display: block;
+  font-size: 1rem;
+  color: #dddddd;
+}
+
+.footpanel2 p {
+  font-weight: bold;
+  font-size: 1.28rem;
+}
+
+
+.footpanel3{
+  background-color:black;
+  color: white;
+  border-top: 0.25px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.logobottom{
+    background-image: url(amzl.logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 80px;
+}
+.footpanel4 {
+  color: #999999;
+  background-color: rgb(43, 41, 41);
+  height: 100px;
+  text-align: center;
+ 
+ 
+
+}
+.footpanel4 a{
+  font-size: 0.85rem;
+
+
+}
+.copywright{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 0.80rem;
+}
